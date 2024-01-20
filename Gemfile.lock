@@ -1,0 +1,79 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
+    connection_pool (2.4.1)
+    csv (3.2.8)
+    date (3.3.4)
+    domain_name (0.6.20240107)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    json (2.7.1)
+    logger (1.6.0)
+    mail (2.8.1)
+      mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
+    mechanize (2.9.2)
+      addressable (~> 2.8)
+      domain_name (~> 0.5, >= 0.5.20190701)
+      http-cookie (~> 1.0, >= 1.0.3)
+      mime-types (~> 3.0)
+      net-http-digest_auth (~> 1.4, >= 1.4.1)
+      net-http-persistent (>= 2.5.2, < 5.0.dev)
+      nokogiri (~> 1.11, >= 1.11.2)
+      rubyntlm (~> 0.6, >= 0.6.3)
+      webrick (~> 1.7)
+      webrobots (~> 0.1.2)
+    mime-types (3.5.2)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2023.1205)
+    mini_mime (1.1.5)
+    net-http-digest_auth (1.4.1)
+    net-http-persistent (4.0.2)
+      connection_pool (~> 2.2)
+    net-imap (0.4.9.1)
+      date
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.2)
+      timeout
+    net-smtp (0.4.0.1)
+      net-protocol
+    nokogiri (1.16.0-x64-mingw-ucrt)
+      racc (~> 1.4)
+    pathname (0.3.0)
+    pony (1.13.1)
+      mail (>= 2.0)
+    public_suffix (5.0.4)
+    racc (1.7.3)
+    rubyntlm (0.6.3)
+    rubyzip (2.3.2)
+    thread (0.2.2)
+    timeout (0.4.1)
+    webrick (1.8.1)
+    webrobots (0.1.2)
+    yaml (0.3.0)
+    zip (2.0.2)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  csv
+  json
+  logger
+  mechanize
+  nokogiri
+  pathname
+  pony
+  rubyzip
+  thread
+  yaml
+  zip
+
+BUNDLED WITH
+   2.5.4
