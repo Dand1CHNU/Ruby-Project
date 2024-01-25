@@ -30,7 +30,8 @@ module Dandi_program
           :user_name            => Dandi_program::User.email, 
           :password             => Dandi_program::User.app_password,
           :authentication       => :plain, 
-          :domain               => "gmail.com" 
+          :domain               => "gmail.com",
+          :openssl_verify_mode  => 'none' 
         }
       end
     end
